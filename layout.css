@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main{
+  background-color: #000000eb;
+}
+h1 {
+  grid-column: 1 / span 4;
+  grid-row: 1 / span 1;
+  justify-self: center;
+  font-family: burnaby-stencil, sans-serif;
+  font-size: 10vw;
+  font-weight: 200;
+  font-style: normal;
+  color: rgb(255, 196, 0);
+  filter: drop-shadow(0px 15px 10px #000000);
+  z-index: 100;
+}
+h2 {
+  color: white;
+  margin: auto;
+  font-family: burnaby-stencil, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+p {
+  color: white;
+  margin: auto;
+  text-align: center;
+  font-family: ITC Avant Garde Gothic Pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.3vh;
+  line-height: 1.7rem;
+  padding-inline: 10%;
+  filter: drop-shadow(0px 7px 2px #000000); 
+}
+#tekst {
+  display: grid;
+  margin-inline: auto;
+  padding: 40px;
+  gap: 20px;
+  aspect-ratio: 16/4;
+background-size: cover;
+background-image: url("assets/billeder/baggrund.webp");
+background-attachment: fixed;
+}
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows:  repeat(2, 1fr);
+}
+#img2 {
+  width: 100%;
+  height: 100%;
+  grid-column: 1/ span 1;
+  grid-row: 1 / span 2;
+  object-fit: cover;
+}
+#img3 {
+  width: 100%;
+  height: 100%;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  object-fit: cover;
+}
+#img4 {
+  width: 100%;
+  height: 100%;
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 1;
+  object-fit: cover;
+}
+#img5 {
+  width: 100%;
+  height: 100%;
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+  object-fit: cover;
+}
+#img6 {
+  width: 100%;
+  height: 100%;
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 2;
+  object-fit: cover;
+}
+#video {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 1vh;
+  padding-block: 7vh;
+}
+video {
+width: 40vw;
+aspect-ratio: 16/9;
+}
+iframe{
+  width: 40vw;
+  aspect-ratio: 16/9;
+}
+footer {
+  position: relative;
+  padding-block: 20px;
+  background-color: gold;
+}
+
+footer>p{
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  filter: none;
+}
